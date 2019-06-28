@@ -1,0 +1,829 @@
+html { 
+	
+	height: 100%;
+}
+
+
+body {
+	
+	background: 
+
+    linear-gradient(
+      rgba(14, 33, 42, 0.97), 
+      rgba(14, 33, 42, 0.93)
+    ),
+	url('../images/usFlag.jpg'); !important;
+	
+	background-size:     cover;
+    background-repeat:   no-repeat;
+    background-attachment: fixed;
+	margin: 0px;
+}
+
+
+a:hover {
+	
+	text-decoration: none;
+}
+
+
+label {
+	
+	color: white;
+}
+
+
+table {
+	
+	color: white !important;
+}
+
+
+td {
+	
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 0 !important;
+}
+
+
+th {
+	
+	height: 30px;
+	line-height: 30px;
+	text-align: center !important;
+	border: 0 !important;
+}
+
+
+.table.dataTable.no-footer {
+	
+	border: 0px !important;
+}
+
+
+#allReports_wrapper > div.top {
+	
+	padding-bottom: 40px !important;
+}
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	
+	border-top: 0px solid red!important;
+}
+
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
+	
+	background-position: 90% 100%;
+}
+
+
+table.dataTable tbody th, table.dataTable tbody td {
+	
+	padding: 8px 0 8px 0;
+}
+
+
+.dataTables_length label {
+	
+	font-weight: 500!important;
+}
+
+
+.dataTables_info {
+	
+	font-style: italic;
+	color: white !important;
+}
+
+
+table.dataTable thead th, table.dataTable thead td {
+	
+	background-color: #0f2940 !important;
+	color: #eaeaea !important;
+	border-bottom: 0px!important;
+	padding: 10px 0 10px 0;
+}
+
+
+ table.dataTable tbody tr:nth-of-type(odd) {
+	
+	background-color: rgba(255, 255, 255, .1);
+}
+
+
+table.dataTable tbody tr:nth-of-type(even) {
+	
+	background-color: rgba(255, 255, 255, .12);
+}
+
+
+.activeRow {
+	
+	background-color: rgba(255, 255, 255, .1) !important;
+}
+
+
+.inactiveRow {
+	
+	background-color: rgba(228, 137, 146, 0.5) !important
+}
+
+
+.activeButton, .inactiveButton {
+	
+	background-color: transparent; 
+	color: white; 
+	border: 0px;"
+}
+
+
+table.dataTable thead .sorting {
+	
+	background-image: none!important;
+}
+
+
+.dataTables_wrapper .dataTables_paginate {
+	
+	margin-top: 20px;
+	float:none;
+	display: block;
+	text-align: right;
+}
+
+
+table.dataTable thead .sorting, 
+table.dataTable thead .sorting_asc, 
+table.dataTable thead .sorting_desc {
+	
+    background : none;
+}
+
+
+#allReports > thead > tr > th, #allUsers > thead > tr > th {
+	
+	padding-left: 20px;
+}
+
+
+.dataTable > thead > tr > th[class*="sort"]:before {
+ 
+    content: "" !important;
+}
+
+
+.dataTable > thead > tr > th[class*="sort"]:after {
+ 
+    content: "" !important;
+}
+
+.paginate_button {
+	
+	color: white !important;
+	background: transparent;
+	border:0px!important;
+}
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+	
+	background: transparent !important;
+	border: 1px solid #2AB4DC !important;
+	color: white !important;
+}
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+	
+	background: #2AB4DC !important;
+}
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+	
+	background: #2AB4DC;
+}
+
+
+.dataTables_filter input {
+	
+	border-radius: 3px;
+    border: 0;
+    padding-left: 10px;
+	height: 35px;
+}
+
+
+#allUsers_length > label > select, #allReports_length > label > select {
+
+	background: transparent;
+    border: 0 solid black;
+    color: white;
+    padding: 3;
+    border-radius: 5px;
+}
+
+
+.actions {
+	
+	padding-top: 20px !important;
+    padding-left: 20px !important;
+}
+
+
+#editReportForm, #editUserForm {
+
+	width: 30%;
+    float: left;
+}
+
+
+.content {
+}
+
+
+.container {
+	
+	padding-top: 50px;
+}
+
+
+h1 {
+	
+	color: white !important;	
+}
+
+
+.form {
+	
+	margin: 0;	
+}
+
+
+.row {
+	
+	height: 55px;
+}
+
+
+.main-form {
+	
+	margin-top: 20px;
+	background-color: transparent; 
+	padding: 25px; 
+	border-radius: 10px; 
+}
+
+
+#loginForm {
+	
+	margin-bottom: 20px;
+}
+
+
+.form-group {
+	
+}
+
+
+.form-title {
+	
+	text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+.button-div {
+	
+	margin-top: 25px;
+	text-align: right;
+}
+
+
+.title {
+	
+	text-align:center;
+	font-style: oblique;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+
+.allUsers {
+	
+	border-collapse: collapse;
+	text-align: center;
+}
+
+
+.allUsers table, th, td {
+	
+	border: 1px solid black;
+}
+
+
+.connect {
+	
+	margin-top: 10%;
+}
+
+
+.connect ul {
+	
+		margin-left: auto;
+	    margin-right: auto;
+	    display: block;
+	    text-align: center;
+}
+
+
+#email, #pass {
+	
+	width: 50% !important;
+}
+
+
+#messageLogin {
+	
+	color: red;
+	font-size: medium;
+}
+
+
+.cardSigin {
+	
+    background-color: transparent;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 35px 8% 45px;
+}
+
+
+#navbar {
+	
+	background-color: #0f2940 !important;
+}
+
+
+#navbarDropdown {
+	
+	color: #17a2b8;
+}
+
+
+#navbarSupportedContent {
+	
+	margin-left: 5px;
+}
+
+
+.dropdown-menu {
+	
+	margin-left: 10px !important;
+	width: 100% !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+	
+	color: white !important;
+}
+
+
+.navbar-light .navbar-brand {
+	
+	color: #17a2b8 !important;
+}
+
+
+li.nav-item {
+	
+	margin-left: 10px !important;
+}
+
+
+.map-container {
+	
+	background-color: white;
+	padding: 0px; 
+	border-radius: 10px; 
+	margin-top: 25px;
+	margin-bottom: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#homeMap {
+
+    position: fixed;
+    padding: 0;
+    margin: 0;
+
+    top: 55px;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+	border-radius: 0px;
+}
+
+
+.leaflet-bottom .leaflet-control {
+	
+	margin-bottom: 70px !important;
+	margin-right: 100px !important;
+}
+
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+
+	background: rgba(255,255,255,.8) !important;
+}
+
+
+#tooltipForm {
+	
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+.awesome-marker i {
+	
+	margin-top: 12px;
+}
+
+
+@keyframes blink {
+ 
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	
+	50% {
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+	
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+
+#homeNewReport {
+	
+	font-size: 40px;
+	color: #17a2b8;
+	width: 60px;
+	height: 60px;
+	
+	transition: .3s ease-in;
+	animation: blink 2.5s;
+	animation-iteration-count: infinite;
+}
+
+
+#LAPD_logo {
+	
+	transition-duration: 0.3s;
+}
+
+
+#LAPD_logo:hover {
+	
+	transform: scale(1.01, 1.01);
+}
+
+
+#homeNewReport:hover {
+	
+	-webkit-animation-play-state:paused;
+	-moz-animation-play-state:paused;
+	-o-animation-play-state:paused;
+	animation-play-state:paused;
+}
+
+
+#createIcon, #listIcon {
+	
+	font-size: 30px;
+	color: #17a2b8;
+	margin-left: 25px;
+	margin-right: 15px;
+}
+
+
+#csvExportIcon, #jsonExportIcon {
+	
+	font-size: 25px;
+	color: #17a2b8;
+	transition-duration: 0.1s;
+}
+
+
+#csvExportIcon:hover, #jsonExportIcon:hover {
+	
+	transform: scale(1.3, 1.3);
+}
+
+
+.downloadToCsvLink, .downloadToJsonLink {
+	
+	margin-left: 40px;
+	margin-right: -25px;
+}
+
+
+#createIcon-small, #listIcon-small, #analyticsIcon-small {
+	
+	font-size: 15px;
+	color: #17a2b8;
+	margin-right: 10px;
+}
+
+
+#signouticon {
+	
+	font-size: 15px; 
+	color: #dc3545;
+	margin-right: 15px;
+}
+
+
+#myAccountIcon {
+	
+	font-size: 15px; 
+	color: #17a2b8;
+	margin-right: 15px;
+}
+
+
+#homeicon, #managereportsicon, #manageusersicon {
+	
+	font-size: 15px; 
+	color: white;
+	margin-right: 5px;
+}
+
+
+#adminIcon {
+	
+	color: #dc3545;
+	margin-left: -7px;
+	margin-top: 25px;
+	font-size: 12px;
+}
+
+
+#chieficon, #detectiveicon, #agenticon {
+	
+	font-size: 20px; 
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+#deleteicon {
+	
+	font-size: 15px; 
+	color: #dc3545;
+}
+
+
+#editicon {
+	
+	font-size: 15px; 
+	color: #17a2b8;
+}
+
+
+#signInIcon, #registerIcon {
+	
+	margin-right: 5px;
+}
+
+
+#switchOff {
+	
+	font-size: 15px; 
+	color: #dc3545;
+}
+
+
+#switchOn {
+	
+	font-size: 15px; 
+	color: #28a745;
+}
+
+
+.alert-danger {
+	
+	background-color: white !important;
+	border-color: white !important;
+	color: #dc3545 !important;
+}
+
+
+.deleteButton {
+	
+	height: 20px;
+	width: 50%;
+    float: left;
+	background-color: transparent;
+	border: 0;
+}
+
+
+.deleteButtonDisabled {
+	
+	font-size: 15px; 
+	color: grey;
+	height: 20px;
+	width: 50%;
+    float: left;
+	background-color: transparent;
+	border: 0;
+}
+
+
+.editButton {
+	
+	height: 20px;
+	background-color: transparent;
+	border: 0;
+}
+
+
+.editButton:hover {
+	
+	transform: scale(1.3, 1.3);
+}
+
+
+.deleteButton:hover {
+	
+	transform: scale(1.3, 1.3);
+}
+
+
+.lds-dual-ring {
+	
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+
+.lds-dual-ring:after {
+	
+  content: " ";
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 4px solid #17a2b8;
+  border-color: #17a2b8 transparent #17a2b8 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+
+@keyframes lds-dual-ring {
+	
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.nav-tabs {
+
+	border-bottom: 0 !important;
+}
+
+
+.nav-tabs>li>a {
+
+	color: black !important;
+	background-color: rgba(255,255,255,0.3);
+}
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	
+	background-color: rgba(255, 255, 255, 0.75) !important;
+}
+
+
+#chartContainer {
+
+    position: fixed;
+    margin: 0;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.highcharts-credits {
+	
+	display: none;
+}
+
+
+#div1, #div2, #div3, #div4 { 
+	
+	background-color: rgba(14, 33, 42, 0.6);
+}
+
+
+#div1:hover, #div2:hover, #div3:hover, #div4:hover { 
+	
+	background: radial-gradient(circle, rgba(32, 32, 32, 0.3) 0%, rgba(16, 16, 16, 0.7) 100%);
+}
+
+
+#div1 { 
+	
+	width: 50%; 
+	height: 100%; 
+	float: left;
+	padding-left: 10%;
+	padding-top: 10%;
+	border-right: 2px solid #0f2940;
+}
+
+
+#typeDonutChart { 
+	
+	width: 80%; 
+	height: 80%; 
+}
+
+
+#div2 { 
+	
+	width: 50%; 
+	height: 50%; 
+	float: left;
+	padding-left: 2.5%;
+	padding-top: 2.5%;
+}
+
+
+#timeSeriesChart { 
+	
+	width: 95%; 
+	height: 90%; 
+}
+
+
+ #div3 { 
+	
+	width: 50%; 
+	height: 50%; 
+	float: left;
+	padding-left: 10%;
+	padding-top: 5%;
+	border-top: 2px solid #0f2940;
+}
+
+
+#roleDonutChart { 
+	
+	width: 80%; 
+	height: 80%; 
+}
+
+
+#div4 { 
+	
+	width: 50%; 
+	height: 50%; 
+	float: left;
+	border: 2px solid #0f2940;
+}
+
+
+.modal-body {
+	
+	text-align: center;
+}
